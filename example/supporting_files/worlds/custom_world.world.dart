@@ -1,12 +1,8 @@
 import 'package:gherkin/gherkin.dart';
 
-import '../../calculator.dart';
-
-class CalculatorWorld extends World {
-  final Calculator calculator = Calculator();
+class FrenchWorld extends World {
 
   @override
   void dispose() {
-    calculator.dispose();
   }
 }
